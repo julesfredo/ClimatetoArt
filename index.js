@@ -16,6 +16,7 @@ async function fetchJapaneseImpressionismYear() {
         console.log(response.status, error);
     }
 }
+
 async function fetchChicagoYear() {
     try{
         const response = await fetch(`https://api.artic.edu/api/v1/artworks/53474`);
@@ -30,6 +31,7 @@ async function fetchChicagoYear() {
         console.log(response.status, error);
     }
 }
+
 async function fetchHopeYear() {
     try{
         const response = await fetch(`https://api.artic.edu/api/v1/artworks/229396`);
@@ -46,5 +48,7 @@ async function fetchHopeYear() {
 }
 
 async function fetchArtworkYear() {
+    chicago.innerHTML = await fetchChicagoYear();
     japaneseImpressionism.innerHTML = await fetchJapaneseImpressionismYear();
+    hope.innerHTML = await fetchHopeYear();
 }
