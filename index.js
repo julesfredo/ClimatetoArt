@@ -131,8 +131,6 @@ async function fetchTemps() {
     // Set temps in HTML
     maxTempId.innerHTML = temps[0];
     minTempId.innerHTML = temps[1];
-
-    console.log(data);
 } catch (error) {
         console.log("Error ", error);
     }
