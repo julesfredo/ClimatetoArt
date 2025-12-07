@@ -1,5 +1,3 @@
-const { use } = require("react");
-
 // Meteo API url - sectioned for year insertion
 let weatherAPIUrl = 'https://archive-api.open-meteo.com/v1/archive?latitude=41.85&longitude=-87.65&start_date=';
 let weatherDate = '-06-20&end_date=';
