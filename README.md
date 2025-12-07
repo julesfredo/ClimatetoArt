@@ -13,5 +13,5 @@ This site runs locally. To run this site, clone the repository with this command
 
 `git clone https://github.com/julesfredo/ClimatetoArt.git`
 
-Next, navigate to the ClimatetoArt folder, and open thie ** index.html ** file in any browser.
+Next, navigate to the ClimatetoArt folder, and open thie __index.html__ file in any browser.
 The opening page will appear, from there use the buttons to navigate the site.
